@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mukul's portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montez&family=Poppins:wght@500;700;800&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(15, 15, 82);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        background-color: #a001ab70;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(80, 80, 211);
+        font-size: 1.2rem;
+      }
+      .left {
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: white;
+      }
+      .left a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+        margin: 20px 0;
+      }
+      .leftsection {
+        font-size: 2.5rem;
+      }
+      .leftsection .buttons{
+        padding: 50px 0;
+      }
+      .leftsection .btn{
+        padding: 10px;
+        background: #2f2c75;
+        color: white;
+        border: 3px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightsection {
+      }
+      .rightsection img {
+        width: 90%;
+        margin: 100px;
+      }
+      .purple {
+        color: blueviolet;
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(69, 69, 241);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 2rem;
+      }
+      .secondsection .box {
+        background: white;
+        width: 75vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .verticle {
+        height: 93px;
+        width: 1px;
+        background: white;
+        margin: 0 110px;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 10px 84px;
+      }
+      .verticle-title{
+        position: relative;
+        top: 45px;
+        width: 150px;
+
+      }
+      .verticle-desc{
+        position: relative;
+        top: 50px;
+        color: gray;
+        width: 150px;
+        font-size: 10px;
+
+      }
+      .image-top{
+        width: 40px;
+        position: relative;
+        top: -50px;
+        left: -7px;
+      }
+      footer{
+        background-color: #33103670;
+        height: 150px;
+        
+
+      }
+      .footer{
+        display: flex;
+        margin: 23px 60px;
+        padding: 20px;
+        /* j-around; */
+      }
+      .footer ul{
+        list-style: none;
+        display: flex;
+        
+        
+
+      }
+      .footer > div{
+        width: 200px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        font-size: 10px;
+        color: gray;
+        padding: 12px 0;
+      }
+      .footer .footer-second ul li{
+        margin: 0 30px;
+        
+      }
+      .footer .footer-second ul li a{
+        text-decoration: none;
+      }
+      .footer .footer-second ul li a:hover{
+       
+        font-size: 20px ;
+        color: rgb(141, 180, 167);
+        
+      }
+      footer .footer-first{
+        width: 50%;
+        text-align: left;
+        margin: 0 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><a href="index.html">Mukul's Portfolio</a></div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="ContactMe.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My self <br /><span class="purple">Mukul Pandey</span> <br />
+          <div>And I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="Mukul Pandey S A.pdf" Download = "Mukul's Resume"><button class="btn">Download Resume</button></a>
+            <a href="https://github.com/mukulpandey2866"><button class="btn">Visit Github</button></a>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="img1.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="verticle">
+            <img class="image-top" src="front.png" alt="" />
+            <div class="verticle-title">Frontend Developer</div>
+            <div class="verticle-desc">
+              I have worked in specializing in front-end technologies such as HTML, CSS, and JavaScript. I've created responsive and user-friendly websites for various clients, honing my skills in design, interactivity, and performance optimization. Passionate about staying current with industry trends and technologies.
+            </div>
+            
+          </div>
+          <div class="verticle">
+            <img class="image-top" src="back.png" alt="" />
+            <div class="verticle-title">Backend developer</div>
+            <div class="verticle-desc">
+              I am extending my experience in backend web development, utilizing Node.js and Django for server-side scripting. I've managed data with MongoDB and Firebase, delivering scalable and efficient solutions while ensuring seamless communication between front-end and back-end components.
+            </div>
+            
+          </div>
+          <div class="verticle">
+            <img class="image-top" src="ML.png" alt="" />
+            <div class="verticle-title">Machine Learning</div>
+            <div class="verticle-desc">
+              My machine learning journey encompasses Kaggle projects and competitions. I've honed my skills in various algorithms, including Convolutional Neural Networks (CNNs), Long Short-Term Memory (LSTM) networks, Random Forest, and Linear Regression. Successfully applying these methods in real-world scenarios has enriched my expertise. Currently I'm diving into Deep Learning.
+            </div>
+            
+          </div>
+          <div class="verticle">
+            <img class="image-top" src="Block.png" alt="" />
+            <div class="verticle-title">Blockchain</div>
+            <div class="verticle-desc">
+              I'm venturing into the world of blockchain, focusing on Hyperledger Fabric. While relatively new to the field, I'm excited to explore its potential and contribute to innovative projects. My journey involves diving into distributed ledger technology and its applications in diverse domains.
+            </div>
+            
+          </div>
+          <div class="verticle">
+            <img class="image-top" src="UI.png" alt="" />
+            <div class="verticle-title">UI/UX</div>
+            <div class="verticle-desc">
+              I've applied my UI/UX expertise to projects and presentations, crafting user-centric designs that blend aesthetics with functionality. With a keen eye for user experience, I've strived to create engaging, intuitive interfaces that resonate with audiences, optimizing digital interactions for maximum impact.
+            </div>
+            
+          </div>
+          
+            
+          
+          
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Mukul's portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/mukul-pandey-274839210/">LinkedIn</a></li>
+            <li><a href="https://leetcode.com/mukul_pandey/">LeetCode</a></li>
+            <li><a href="https://www.kaggle.com/mukulpandey2866">Kaggle</a></li>
+            <li><a href="https://www.codingninjas.com/studio/profile/d7d216ff-85b5-4229-b8ee-adaf1610f752">CodingNinjas</a></li>
+            
+          </ul>
+        </div>
+        
+      </div>
+      <div class="footer-rights">
+        Copyright &#169  Mukul's Portfolio | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Professional Data Engineer",
+          "ML Enthusiast",
+        ],
+        typeSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
